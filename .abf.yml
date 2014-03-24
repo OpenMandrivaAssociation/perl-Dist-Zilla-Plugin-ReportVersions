@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-Plugin-ReportVersions-1.102460.tar.gz: 55fe97274fef7f6690f760d8e6816cb2c66adf53
 sources:
-  "Dist-Zilla-Plugin-ReportVersions-1.102460.tar.gz": 55fe97274fef7f6690f760d8e6816cb2c66adf53
+  Dist-Zilla-Plugin-ReportVersions-1.110730.tar.gz: fb2b053e9d81ae82ab8f3235f62caa5a9939a81d

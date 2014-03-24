@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-Plugin-ReportVersions
-%define upstream_version 1.102460
+%define upstream_version 1.110730
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Write a test that reports used module versions
 License:	GPL+ or Artistic
@@ -49,4 +49,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes LICENSE META.yml META.json README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
