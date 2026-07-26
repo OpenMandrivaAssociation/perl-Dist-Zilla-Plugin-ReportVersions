@@ -1,15 +1,13 @@
 %define upstream_name    Dist-Zilla-Plugin-ReportVersions
-%define upstream_version 1.110730
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	1.110730
+Release:	5
 
 Summary:	Write a test that reports used module versions
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/hanekomu/Dist-Zilla-Plugin-ReportVersions
-Source0:	https://cpan.metacpan.org/authors/id/M/MA/MARCEL/Dist-Zilla-Plugin-ReportVersions-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MARCEL/Dist-Zilla-Plugin-ReportVersions-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -34,7 +32,7 @@ The '000' prefix is chosen so it runs first to make sure it shows up in
 CPAN tester reports.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
